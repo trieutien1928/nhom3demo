@@ -1,0 +1,72 @@
+body {
+  /* background-color: rgb(159, 228, 240); */
+}
+
+.hero-image {
+    background-image: url("https://img4.thuthuatphanmem.vn/uploads/2019/11/27/hinh-nen-nhe-nhang-de-chiu_025019842.jpg");
+    background-color: #cccccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 20px; /* Increased font size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+  
+  .active {
+    background-color: #4CAF50; /* Add an active/current color */
+  }
+
+h1 {
+  color: rgb(71, 75, 12);
+  text-align: center;
+}
+
+#myh12 {
+    color: rgb(11, 204, 69);
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+table, th, td {
+    border: 1px solid rgb(12, 62, 136);
+    text-align: center;
+  }
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+/* table {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  } */
